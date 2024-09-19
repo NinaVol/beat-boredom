@@ -1,38 +1,40 @@
-.App {
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(240, 248, 255, 0.84);
+  margin-top: 60px;
+  padding: 35px;
+}
+
+h1{
+  font-size: 40px;
+  font-family: "Protest Guerrilla", sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  font-size: 25px;
+  font-family: "SUSE", sans-serif;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button{
+  font-family: "Protest Guerrilla", sans-serif;
+  font-size: 30px;
+  background-color: #272abf;
+  cursor: pointer;
+  border: none;
   color: white;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.4);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
